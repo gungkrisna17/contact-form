@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact Us</title>
+</head>
+<body>
+    <div class="contact-container">
+        <form action="https://formspree.io/f/mvgogdyq" method="post" class="contact-left">
+            <div class="contact-left-title">
+                <h2>Contact Us/お問い合わせ</h2>
+                <hr>
+            </div>
+            <input type="text" name="Name" placeholder="Full Name/フルネーム" class="contact-input" required>
+            <input type="email" name="Email" placeholder="Email/電子メール" class="contact-input" required>
+            <input type="text" name="Phone" placeholder="Phone/電話" class="contact-input" required>
+            <select name="Continent/大陸" aria-placeholder="Continent/大陸" class="contact-input">
+                <option>Asian/アジア人</option>
+                <option>Europe/ヨーロッパ</option>
+                <option>America/アメリカ</option>
+                <option>Africa/アフリカ</option>
+                <option>Australia/オーストラリア</option>
+            </select>
+            <textarea name="Message" placeholder="Message/メッセージ" class="contact-input" required></textarea>
+            <button type="submit"> Send/送信<img src="/images/assets/arrow_icon.png"></button>
+        </form>
+        <div class="contact-right">
+            <img src="/images/assets/right_img.png">
+        </div>
+    </div>
+</body>
+</html>
