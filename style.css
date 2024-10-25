@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    font-family: "Outfit" serif;
+    font-family: "Outfit", serif;
     background: linear-gradient(#ffdad5, #fff7f9);
 }
 .contact-container{
